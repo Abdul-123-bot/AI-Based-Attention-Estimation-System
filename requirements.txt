@@ -1,6 +1,9 @@
 numpy
 cmake
-opencv_python
+keras
+tensorflow
+opencv-python
 dlib
 xlsxwriter
+
 
