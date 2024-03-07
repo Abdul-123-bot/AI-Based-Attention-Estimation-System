@@ -59,10 +59,10 @@ def _process_sheet():
             sum_hr = 0
             sum_vr = 0
             frames = 0
-        if(hr[i] == np.nan):
+        if(np.isnan(hr[i])):
             nan_hr = nan_hr + 1
             frames = frames + 1
-        elif(vr[i] == np.nan):
+        elif(np.isnan(vr[i])):
             nan_vr = nan_vr + 1
             frames = frames +1
         else:
